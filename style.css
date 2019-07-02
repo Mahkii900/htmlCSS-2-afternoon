@@ -79,6 +79,7 @@ nav #subButton {
     height: 30px;
     width: 30px;
     background-color: black;
+    font-weight: 400;
     text-decoration-color: white;
     font-style: italic;
 }
