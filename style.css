@@ -42,13 +42,18 @@ body {
 
 .logo {
     display: flex;
-    justify-content: left;
-    margin-left: 100px;
+    justify-content: flex-start;
+    margin-left: 50px;
 }
 .logo h3 {
-    position: absolute;
     margin-top: 0%;
-  margin-bottom: 0%;
+    margin-bottom: 0%;
+    position: absolute;
+}
+
+.logo p {
+    display: flex;
+    position: absolute;
 }
 
 .menu-bar nav {
@@ -56,9 +61,15 @@ body {
     width: 100%;
 }
 
-.menu-bar nav div {
+.menu-bar nav {
+    padding-top: 16px;
+    list-style: none;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-start;
+    flex-direction: row;
+}
+
+nav li {
+    display: flex;
+    justify-content: center;
 }
 
