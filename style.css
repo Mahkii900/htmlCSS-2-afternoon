@@ -18,21 +18,47 @@ body {
 }
 
 .ad-banner .ad-text {
+    display: flex;
     justify-content: center;
-    text-align: center;
+    align-content: center;
+}
+.ad-text span {
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .menu-bar {
+    margin: 0px;
     height: 50px;
     width: 100%;
+    display: flex;
     flex-direction: row;
     position: fixed;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: lightgray;
     align-self: flex-end;
 }
 
-.menu-bar li {
-    list-style: none;
+.logo {
+    display: flex;
+    justify-content: left;
+    margin-left: 100px;
+}
+.logo h3 {
+    position: absolute;
+    margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.menu-bar nav {
+    height: 50px;
+    width: 100%;
+}
+
+.menu-bar nav div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
 }
 
