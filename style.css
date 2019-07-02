@@ -36,40 +36,49 @@ body {
     flex-direction: row;
     position: fixed;
     justify-content: space-between;
-    background-color: lightgray;
+    background-color: transparent;
     align-self: flex-end;
 }
 
-.logo {
+.owlLogoText {
     display: flex;
     justify-content: flex-start;
     margin-left: 50px;
 }
-.logo h3 {
+.owlLogoText h3 {
     margin-top: 0%;
     margin-bottom: 0%;
     position: absolute;
 }
 
-.logo p {
+.owlLogo p {
     display: flex;
     position: absolute;
 }
 
 .menu-bar nav {
     height: 50px;
-    width: 100%;
-}
-
-.menu-bar nav {
-    padding-top: 16px;
+    width: 50%;
+    
     list-style: none;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
-nav li {
+nav #subButton {
+    background-color: blue;
+    border-radius: 35%;
+}
+
+.inLogo {
+    margin: 10px;
     display: flex;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-self: flex-end;
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    text-decoration-color: white;
+    font-style: italic;
 }
-
